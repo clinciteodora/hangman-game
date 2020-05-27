@@ -9,5 +9,6 @@ target 'hangman-game' do
 
   # Pods for hangman-game
   pod 'PubNub', '~> 4.5'
+  pod 'Firebase/Auth'
 
 end

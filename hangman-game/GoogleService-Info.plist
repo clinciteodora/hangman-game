@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>51938461045-3vgjksam0ldvag63q2c0nu62g11s9d5u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.51938461045-3vgjksam0ldvag63q2c0nu62g11s9d5u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBrEktKws78rx_nur2ZqTk1JRNUlJ2PjFs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>51938461045</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.teodora.hangman-game</string>
+	<key>PROJECT_ID</key>
+	<string>hangman-e94c6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hangman-e94c6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:51938461045:ios:600a4ad007971daba13f3c</string>
+	<key>DATABASE_URL</key>
+	<string>https://hangman-e94c6.firebaseio.com</string>
+</dict>
+</plist>

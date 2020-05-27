@@ -17,6 +17,8 @@
 		55C128241DEBB1A8005B6446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C128221DEBB1A8005B6446 /* LaunchScreen.storyboard */; };
 		98C2C08A5CD666AE801FA847 /* Pods_hangman_game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151AC65ED0068A4CC70483EB /* Pods_hangman_game.framework */; };
 		CBD7801C2469C92700FC1D00 /* PubNub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD7801B2469C92700FC1D00 /* PubNub.framework */; };
+		CBE299FA247D9A37005BDC08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE299F9247D9A37005BDC08 /* GoogleService-Info.plist */; };
+		CBE299FC247D9B4A005BDC08 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE299FB247D9B4A005BDC08 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B0442A0CE1D382B8A6547426 /* Pods-hangman-game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hangman-game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hangman-game/Pods-hangman-game.debug.xcconfig"; sourceTree = "<group>"; };
 		CBD780192469C71200FC1D00 /* hangman-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hangman-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD7801B2469C92700FC1D00 /* PubNub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PubNub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE299F9247D9A37005BDC08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBE299FB247D9B4A005BDC08 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				55C128201DEBB1A8005B6446 /* Assets.xcassets */,
 				55C128221DEBB1A8005B6446 /* LaunchScreen.storyboard */,
 				55C128251DEBB1A8005B6446 /* Info.plist */,
+				CBE299F9247D9A37005BDC08 /* GoogleService-Info.plist */,
+				CBE299FB247D9B4A005BDC08 /* LoginController.swift */,
 			);
 			path = "hangman-game";
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55C128241DEBB1A8005B6446 /* LaunchScreen.storyboard in Resources */,
+				CBE299FA247D9A37005BDC08 /* GoogleService-Info.plist in Resources */,
 				55C128211DEBB1A8005B6446 /* Assets.xcassets in Resources */,
 				55C1281F1DEBB1A8005B6446 /* Main.storyboard in Resources */,
 			);
@@ -170,11 +177,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-hangman-game/Pods-hangman-game-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -207,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55BF923B1DECAE5E0056F02D /* PlayerViewController.swift in Sources */,
+				CBE299FC247D9B4A005BDC08 /* LoginController.swift in Sources */,
 				55C1281C1DEBB1A8005B6446 /* ViewController.swift in Sources */,
 				55BF92371DECAE540056F02D /* MainController.swift in Sources */,
 				55BF92391DECAE590056F02D /* WordViewController.swift in Sources */,

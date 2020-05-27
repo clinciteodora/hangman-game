@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Volumes/Macintosh HD - Data/Teo/hangman-game/hangman-game.xcodeproj">
+      location = "group:hangman-game.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:hangman-game.xcodeproj">
    </FileRef>
 </Workspace>
